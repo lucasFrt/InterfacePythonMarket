@@ -8,8 +8,7 @@ print("Conexão com o Banco de dados realizada com sucesso!")
 
 comando = conn.cursor()
 comando.execute(""" CREATE TABLE Produtos
-(id INT PRIMARY KEY NOT NULL,
-nome TEXT NOT NULL,
+(nome TEXT NOT NULL,
 codigo int NOT NULL,
 preco VARCHAR(12));
 """)
